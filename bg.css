@@ -1,0 +1,34 @@
+body {
+	width: 100wh;
+	height: 100vh;
+  background: #004f75;
+  background: linear-gradient(45deg, #004f75, #018252, #665600, #590600, #59002f);
+  background-size: 400%;
+  -webkit-animation: animaFundo 10s ease infinite;
+  -moz-animation: animaFundo 10s ease infinite;
+  animation: animaFundo 10s ease infinite;
+}
+
+@-webkit-keyframes animaFundo {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes animaFundo {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
